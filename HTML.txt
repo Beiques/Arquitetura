@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhos Acadêmicos de Arquitetura</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #121212;
+            color: #d4af37;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1b1b1b;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-family: 'Brush Script MT', cursive;
+            color: #37d4af;
+            font-size: 3em;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            color: #d4af37;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            color: #37d4af;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 2.5em;
+            color: #37d4af;
+            border-bottom: 2px solid #d4af37;
+            padding-bottom: 10px;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .project {
+            background-color: #1b1b1b;
+            border: 1px solid #37d4af;
+            margin: 15px;
+            padding: 15px;
+            width: 300px;
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+        }
+        .project h3 {
+            font-family: 'Brush Script MT', cursive;
+            color: #37d4af;
+            font-size: 1.8em;
+        }
+        footer {
+            background-color: #1b1b1b;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meus Trabalhos de Arquitetura</h1>
+        <nav>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <div class="content">
+        <section id="sobre" class="section">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou um(a) estudante de arquitetura apaixonado(a) por criar espaços inovadores e funcionais. Aqui você encontrará alguns dos meus principais trabalhos acadêmicos, nos quais exploro diferentes aspectos do design arquitetônico.</p>
+        </section>
+        <section id="portfolio" class="section">
+            <h2>Portfólio</h2>
+            <div class="projects">
+                <div class="project">
+                    <img src="projeto1.jpg" alt="Projeto 1">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição breve do projeto 1, destacando os principais elementos e inovações.</p>
+                </div>
+                <div class="project">
+                    <img src="projeto2.jpg" alt="Projeto 2">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição breve do projeto 2, destacando os principais elementos e inovações.</p>
+                </div>
+                <div class="project">
+                    <img src="projeto3.jpg" alt="Projeto 3">
+                    <h3>Projeto 3</h3>
+                    <p>Descrição breve do projeto 3, destacando os principais elementos e inovações.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="section">
+            <h2>Contato</h2>
+            <p>Para mais informações ou para discutir possíveis colaborações, entre em contato comigo através das redes sociais ou envie um e-mail para <a href="mailto:email@exemplo.com" style="color:#37d4af;">email@exemplo.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Meus Trabalhos de Arquitetura. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
